@@ -1,0 +1,57 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/v4-shims.scss';
+
+// Vuetify
+@import '~vuetify/dist/vuetify.min.css';
+
+// Vue form wizard
+@import '~vue-form-wizard/dist/vue-form-wizard.min.css';
+
+// Ti icons
+@import '~ti-icons/css/themify-icons.css';
+
+.table{
+    background-color: rgba(255,255,255,0) !important;
+}
+.table table{
+    border-collapse: separate;
+}
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 143, 99, 0.1);
+    padding: 15px 10px;
+    border-radius: .3em;
+}
+.search{
+    background-color: white !important;
+    max-width: 30vw;
+    box-shadow: none !important;
+}
+.new{
+    background: linear-gradient(87.58deg, #186948 13.03%, #238F63 88.59%)
+}
+.table > :not(:first-child){
+    border: none !important;
+}
+.v-data-table-header{
+    background-color: rgba(35, 143, 99, 0.1) !important;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)>.v-input__control>.v-input__slot {
+    box-shadow: none !important;
+}

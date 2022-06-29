@@ -1,0 +1,6 @@
+-Növénykultúrák típusai (iconnal, a könnyebb megjelenítésért)
+-Mennyiségek mérése: magok mennyisége, vegyszerek mennyisége, elhasznált üzemanyag.
+-Költségek számolása: Órabér, magok ára, vegyszerek ára, üzemanyag ára (Esetleg javítási költségek)
+-Készletnyilvántartás: vetőmagok, vegyszerek, üzemanyag
+-(Bevételek)
+-Statisztikák és jelentések ezek az adatok alapján.
